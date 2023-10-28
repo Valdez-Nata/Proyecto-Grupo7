@@ -1,0 +1,25 @@
+body {
+     background-color: rgb(177, 128, 128);
+}
+
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    height: 100vh; 
+}
+
+.centered-h1 {
+    text-align: center; 
+}
+
+footer{
+    height: 150px;
+    background-color: rgba(58, 51, 51, 0.74);
+    color: aliceblue;
+    border: 10px solid color black;
+}
+.centered-h4 {
+    text-align:left; 
+}
