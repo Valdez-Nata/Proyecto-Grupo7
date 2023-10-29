@@ -1,25 +1,45 @@
-body {
-     background-color: rgb(177, 128, 128);
+*{
+    /* reset */
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
+.barraMenu {
+     width: 100%;
+     background-color:rgb(185, 61, 61);
+     display: flex;
+     height: 3em;
+     justify-content: space-between;
+     align-items: center;
+     position: fixed;
+     top: 0%;
+}
 
-.center-container {
+.menulist {
     display: flex;
-    justify-content: center;
-    align-items:flex-start;
-    height: 100vh; 
+    width: 500px;
+    justify-content: space-around;
 }
 
-.centered-h1 {
-    text-align: center; 
+.menulist > li {
+    list-style-type: none  ;
 }
 
-footer{
-    height: 150px;
-    background-color: rgba(58, 51, 51, 0.74);
-    color: aliceblue;
-    border: 10px solid color black;
+.menulist > li > a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
 }
-.centered-h4 {
-    text-align:left; 
+
+body {
+    background-color: rgb(252, 228, 200);
 }
+
+.primerContenedor {
+    background-image: url("./../Image/fondo5.jpg");
+    height: 65vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 

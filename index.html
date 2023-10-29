@@ -3,50 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./CSS/style.css">
-    <link rel="stylesheet" href="./Image">
     <title>MP Comidas</title>
 </head>
 <body>
-        <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">MP</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Poductos</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
+      <header class="barraMenu">
+            <h1>MP COMIDAS</h1>
+            <nav>
+               <ul class="menulist">
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Productos</a></li>
+                <li><a href="">Sevicios</a></li>
+                <li><a href="">Nosotros</a></li>
+               </ul>
+            </nav>
       </header>
     <main>
-        <div class="center-container">
-            <h1 class="centered-h1">MP COMIDAS</h1>
+      <section class="primerContenedor">
+        <h2>MP COMIDAS</h2>
+      </section>
+      <section class="Imagenes">
+          <h3>¿Que producto estas buscando?</h3>
+          <article class="galeria--cont">
+            <div class="item-img"><img src="./Image/img1.jpg" alt="Torta de feliz cumpleaños"></div>
+            <div class="item-img"><img src="./Image/img2.jfif" alt="Rosca de pascua"></div>
+            <div class="item-img"><img src="./Image/img3.jpg" alt="Conitos de chocolate"></div>
+            <div class="item-img"><img src="./Image/img4.jpg" alt="Pie de limón"></div>
+            <div class="item-img"><img src="./Image/img5.jfif" alt="buñuelos dulces"></div>
+          </article>
+      </section>
+      <section class="us-content">
+         <article class="us-article">
+          <h4>Nosotros</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos a laudantium illum! Quae dolorem quaerat illo maxime nisi reiciendis vitae commodi laborum quia corrupti, natus sunt enim tempore neque quibusdam.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non sed quisquam dolor vel cupiditate illum nobis aut corrupti expedita tempore beatae voluptates libero repudiandae molestias, voluptatem tenetur? Minus, veniam et.</p>
+        </article>
+      </section>
+      </main>
+      <aside class="img-delivery">
+        <div>
+          <img src="./Image/delivery.jpg" alt="">
         </div>
-     <footer class="centered-h4"> 
-            <h4> Sobre Nosotros</h4>
-               <div>
-                 <ul>
-                    <ul>SOBRE LA ORGANIZACIÓN</ul>
-                    <ul>CELULAR</ul>
-                    <ul>MAIL</ul>
-                    <ul>DIRECCIÓN</ul>
-                 </ul>
-              </div>
-     </footer>
+        <div>
+          <img src="./Image/mercadopago.png" alt="">
+         </div>
+        </aside>
+<footer id="Footer" class="Pie"> 
+      <span>Copyright</span>
+      <div>
+        <ul>
+        <ul>SOBRE LA ORGANIZACIÓN</ul>
+        <ul>CELULAR</ul>
+        <ul>MAIL</ul>
+        <ul>DIRECCIÓN</ul>
+        </ul>
+      </div>
+</footer>
 <script src="./JS/main.js"></script>
 </body>
 </html>
