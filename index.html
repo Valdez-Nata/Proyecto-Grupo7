@@ -13,7 +13,7 @@
     <title>MP Comidas</title>
 </head>
 <body>
-      <header class="barraMenu">
+      <!-- <header class="barraMenu">
             <h1>MP COMIDAS</h1>
             <nav>
                <ul class="menulist">
@@ -23,85 +23,120 @@
                 <li><a href="">Nosotros</a></li>
                </ul>
             </nav>
-      </header>
+      </header> -->
+      <nav class="navbar navbar-expand-lg bg-danger">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">MP COMIDAS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Productos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Más
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Servicios</a></li>
+                  <li><a class="dropdown-item" href="#">Contacto</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Atencion al cliente</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true"></a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="¿Que estas buscando?" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     <main>
       <section class="primerContenedor">
         <h2>MP COMIDAS</h2>
       </section>
-      <!-- <section class="Imagenes">
-          <h3>¿Que producto estas buscando?</h3>
-          <article class="galeria--cont">
-            <div class="item-img"><img src="./Image/img1.jpg" alt="Torta de feliz cumpleaños"></div>
-            <div class="item-img"><img src="./Image/img2.jfif" alt="Rosca de pascua"></div>
-            <div class="item-img"><img src="./Image/img3.jpg" alt="Conitos de chocolate"></div>
-            <div class="item-img"><img src="./Image/img4.jpg" alt="Pie de limón"></div>
-            <div class="item-img"><img src="./Image/img5.jfif" alt="buñuelos dulces"></div>
-          </article>
-      </section> -->
-      <div class="card" style="width: 18rem;">
-        <img src="./Image/img1.jpg" class="card-img-top" alt="Es una torta de cumpleaños">
-        <div class="card-body">
-          <h5 class="card-title">Tortas de cumpleaños</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
+      <section class="cartas">
+        <div class="card" style="width: 18rem;">
+          <img src="./Image/img1.jpg" class="card-img-top" alt="Es una torta de cumpleaños">
+          <div class="card-body">
+            <h5 class="card-title">Tortas de Cumpleaños</h5>
+            <p class="card-text">Tortas de cumpleaños de todo tipo. Se hacen como la pida el cliente</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
         </div>
-      </div>
       <div class="card1" style="width: 18rem;">
-        <img src="./Image/img2.jfif" class="card-img-top" alt="Es una torta de cumpleaños">
+        <img src="./Image/img2.jfif" class="card-img-top" alt="Es una rosca de pascua">
         <div class="card-body">
-          <h5 class="card-title">Tortas de cumpleaños</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="card-title">Rosca de Pascua</h5>
+          <p class="card-text">Descripción del producto:</p>
           <a href="#" class="btn btn-primary">Comprar</a>
         </div>
       </div>
       <div class="card2" style="width: 18rem;">
-        <img src="./Image/img3.jpg" class="card-img-top" alt="Es una torta de cumpleaños">
+        <img src="./Image/ConoDulceLeche.jpg" class="card-img-top" alt="Son conitos de chocolate">
         <div class="card-body">
-          <h5 class="card-title">Tortas de cumpleaños</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="card-title">Conitos de Chocolate</h5>
+          <p class="card-text">Conitos de chocolate rellenos de dulce de Leche</p>
           <a href="#" class="btn btn-primary">Comprar</a>
         </div>
       </div>
       <div class="card3" style="width: 18rem;">
-        <img src="./Image/img4.jpg" class="card-img-top" alt="Es una torta de cumpleaños">
+        <img src="./Image/img4.jpg" class="card-img-top" alt="Es un pie de limon">
         <div class="card-body">
-          <h5 class="card-title">Tortas de cumpleaños</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="card-title">Pie de Limon</h5>
+          <p class="card-text">Descripción del producto:</p>
           <a href="#" class="btn btn-primary">Comprar</a>
         </div>
       </div>
       <div class="card4" style="width: 18rem;">
-        <img src="./Image/img5.jfif" class="card-img-top" alt="Es una torta de cumpleaños">
+        <img src="./Image/img5.jfif" class="card-img-top" alt="Son buñuelos de dulce de Leche">
         <div class="card-body">
-          <h5 class="card-title">Tortas de cumpleaños</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="card-title">Buñuelos de Dulce de Leche</h5>
+          <p class="card-text">Buñuelos rellenos de dulce de leche con azucar impalpable</p>
           <a href="#" class="btn btn-primary">Comprar</a>
         </div>
       </div>
-      <section class="us-content">
+      </section>
+      <!-- <section class="us-content">
          <article class="us-article">
           <h4>Nosotros</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos a laudantium illum! Quae dolorem quaerat illo maxime nisi reiciendis vitae commodi laborum quia corrupti, natus sunt enim tempore neque quibusdam.</p>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non sed quisquam dolor vel cupiditate illum nobis aut corrupti expedita tempore beatae voluptates libero repudiandae molestias, voluptatem tenetur? Minus, veniam et.</p>
         </article>
-      </section>
+      </section> -->
       </main>
       <aside class="img-delivery">
-        <div>
-          <img src="./Image/delivery.jpg" alt="">
+        <div class="img" style="width: 18rem;">
+          <img src="./Image/delivery.jpg" class="card-img-top" alt="Repartidor de comida">
+          <div class="card-body">
+            <p class="card-text">DELIVERY LAS 24HS</p>
+            <P class="card-text2">A CUALQUIER PARTE DE LA CIUDAD</P>
+          </div>
         </div>
-        <div>
-          <img src="./Image/mercadopago.png" alt="">
-         </div>
+        <div class="img1" style="width: 18rem;">
+          <img src="./Image/mercadopago.png" class="card-img-top" alt="Metodo de pago">
+          <div class="card-body">
+            <p class="card-text">Aceptamos diferentes formas de pago. Elegí la que más te guste.</p>
+          </div>
+        </div>
         </aside>
 <footer id="Footer" class="Pie"> 
-      <span>Copyright. Todos los derechos reservados</span>
-      <div>
+      <div class="texto">
         <ul>
-        <ul>SOBRE LA ORGANIZACIÓN</ul>
-        <ul>CELULAR</ul>
-        <ul>MAIL</ul>
-        <ul>DIRECCIÓN</ul>
+          <span>Copyright</span>
+        <ul>Nosotros: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, velit? Odio in, fugit rem laborum sit, culpa modi dignissimos nesciunt eos, voluptatem natus ipsa eligendi iure. Est soluta tempore harum. </ul>
+        <ul>Telfóno: +(54) 11 1234-5678</ul>
+        <ul>Mail: paginaweb@gmail.com</ul>
+        <ul>Dirección: Av. 9 de julio </ul>
         </ul>
       </div>
 </footer>
