@@ -15,7 +15,7 @@
 <body>
       <nav class="navbar navbar-expand-lg bg-danger">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">MP COMIDAS</a>
+          <a class="navbar-brand" href="#"><h1>MP COMIDAS</h1></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -55,7 +55,7 @@
       </section>
       <section>
         <div class="subtitulo">
-          <h3>Nuestros Productos</h3>
+          <h2>Nuestros Productos</h2>
         </div>
       </section>
       <section class="cartas">
@@ -142,7 +142,38 @@
       </div>
     </div>
       </section>
-      </main>
+      <section>
+        <nav aria-label="barNav">
+          <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Ant...</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Sig...</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section>
+        <form class="formulario rounded">
+          <h2>Registro</h2>
+          <p>Para estar al tanto de nuevos menús, comidas y actualizaciones de precios.</p>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="nombre@gmail.com">
+            <div id="emailHelp" class="form-text">No compartiremos tus datos con nadie.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingrese su Contraseña">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </section>
+    </main>
       <aside class="img-delivery">
         <div class="img rounded" style="width: 18rem;">
           <img src="./Image/delivery.jpg" class="card-img-top" alt="Repartidor de comida">
