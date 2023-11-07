@@ -44,13 +44,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 65vh;
+    height: 45vh;
 } 
 
 .primerContenedor>h2 {
     font-size: 10em;
     position: relative;
-    top: 68%;
+    top: 54%;
     color: #ffffffab;
 }
 
@@ -234,4 +234,58 @@ body {
     text-align: center;
     color: white;
  }
+
+@media screen and (max-width:1000px){
+    body {
+        font-size: 18px;
+        margin: 0px;
+      }
+
+    .nav-link {
+        width: 400px;
+        height:45px;
+        background-color: #fff;
+        text-align: center;
+    }
+
+    .mb-lg-0 {
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+    .primerContenedor>h2{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        font-size: 8em;
+        top: 60%;
+    }
+
+    .subtitulo>h2{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .cartas {
+        display: flexbox;
+        justify-content: space-between;  
+    }
+
+    .formulario {
+        width: 100%;
+        width: 600px;
+        height: 500px;
+    }
+
+    .img-delivery {
+        justify-content: space-around;
+        padding: 10px;
+    }
+    .texto {
+        justify-content: baseline;
+        text-align:center;
+    }
+    
+}
 
